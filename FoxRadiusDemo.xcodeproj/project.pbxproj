@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66195F111C75AD2A002F1C59 /* FOXTestRaidusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66195F101C75AD2A002F1C59 /* FOXTestRaidusView.m */; };
+		66195F151C75AD30002F1C59 /* FOXRadiusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66195F141C75AD30002F1C59 /* FOXRadiusView.m */; };
+		662DE54D1C22A6F900AE6B72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 662DE54C1C22A6F900AE6B72 /* main.m */; };
+		662DE5501C22A6F900AE6B72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 662DE54F1C22A6F900AE6B72 /* AppDelegate.m */; };
+		662DE5531C22A6F900AE6B72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662DE5521C22A6F900AE6B72 /* ViewController.m */; };
+		662DE5561C22A6F900AE6B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662DE5541C22A6F900AE6B72 /* Main.storyboard */; };
+		662DE5581C22A6F900AE6B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662DE5571C22A6F900AE6B72 /* Assets.xcassets */; };
+		662DE55B1C22A6F900AE6B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662DE5591C22A6F900AE6B72 /* LaunchScreen.storyboard */; };
+		662DE5661C22A6F900AE6B72 /* FoxRadiusDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 662DE5651C22A6F900AE6B72 /* FoxRadiusDemoTests.m */; };
+		662DE5711C22A6F900AE6B72 /* FoxRadiusDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 662DE5701C22A6F900AE6B72 /* FoxRadiusDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		662DE5621C22A6F900AE6B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 662DE5401C22A6F900AE6B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 662DE5471C22A6F900AE6B72;
+			remoteInfo = FoxRadiusDemo;
+		};
+		662DE56D1C22A6F900AE6B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 662DE5401C22A6F900AE6B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 662DE5471C22A6F900AE6B72;
+			remoteInfo = FoxRadiusDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66195F0F1C75AD2A002F1C59 /* FOXTestRaidusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXTestRaidusView.h; sourceTree = "<group>"; };
+		66195F101C75AD2A002F1C59 /* FOXTestRaidusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXTestRaidusView.m; sourceTree = "<group>"; };
+		66195F131C75AD30002F1C59 /* FOXRadiusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXRadiusView.h; sourceTree = "<group>"; };
+		66195F141C75AD30002F1C59 /* FOXRadiusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXRadiusView.m; sourceTree = "<group>"; };
+		662DE5481C22A6F900AE6B72 /* FoxRadiusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxRadiusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		662DE54C1C22A6F900AE6B72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		662DE54E1C22A6F900AE6B72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		662DE54F1C22A6F900AE6B72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		662DE5511C22A6F900AE6B72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		662DE5521C22A6F900AE6B72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		662DE5551C22A6F900AE6B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		662DE5571C22A6F900AE6B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		662DE55A1C22A6F900AE6B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		662DE55C1C22A6F900AE6B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662DE5611C22A6F900AE6B72 /* FoxRadiusDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxRadiusDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		662DE5651C22A6F900AE6B72 /* FoxRadiusDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoxRadiusDemoTests.m; sourceTree = "<group>"; };
+		662DE5671C22A6F900AE6B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662DE56C1C22A6F900AE6B72 /* FoxRadiusDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxRadiusDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		662DE5701C22A6F900AE6B72 /* FoxRadiusDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoxRadiusDemoUITests.m; sourceTree = "<group>"; };
+		662DE5721C22A6F900AE6B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662DE5451C22A6F900AE6B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DE55E1C22A6F900AE6B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DE5691C22A6F900AE6B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66195F121C75AD30002F1C59 /* FOXRadiusView */ = {
+			isa = PBXGroup;
+			children = (
+				66195F131C75AD30002F1C59 /* FOXRadiusView.h */,
+				66195F141C75AD30002F1C59 /* FOXRadiusView.m */,
+			);
+			path = FOXRadiusView;
+			sourceTree = "<group>";
+		};
+		662DE53F1C22A6F900AE6B72 = {
+			isa = PBXGroup;
+			children = (
+				662DE54A1C22A6F900AE6B72 /* FoxRadiusDemo */,
+				662DE5641C22A6F900AE6B72 /* FoxRadiusDemoTests */,
+				662DE56F1C22A6F900AE6B72 /* FoxRadiusDemoUITests */,
+				662DE5491C22A6F900AE6B72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662DE5491C22A6F900AE6B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662DE5481C22A6F900AE6B72 /* FoxRadiusDemo.app */,
+				662DE5611C22A6F900AE6B72 /* FoxRadiusDemoTests.xctest */,
+				662DE56C1C22A6F900AE6B72 /* FoxRadiusDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662DE54A1C22A6F900AE6B72 /* FoxRadiusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				662DE54E1C22A6F900AE6B72 /* AppDelegate.h */,
+				662DE54F1C22A6F900AE6B72 /* AppDelegate.m */,
+				66195F0F1C75AD2A002F1C59 /* FOXTestRaidusView.h */,
+				66195F101C75AD2A002F1C59 /* FOXTestRaidusView.m */,
+				662DE5511C22A6F900AE6B72 /* ViewController.h */,
+				662DE5521C22A6F900AE6B72 /* ViewController.m */,
+				662DE5541C22A6F900AE6B72 /* Main.storyboard */,
+				66195F121C75AD30002F1C59 /* FOXRadiusView */,
+				662DE54B1C22A6F900AE6B72 /* Supporting Files */,
+			);
+			path = FoxRadiusDemo;
+			sourceTree = "<group>";
+		};
+		662DE54B1C22A6F900AE6B72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				662DE5571C22A6F900AE6B72 /* Assets.xcassets */,
+				662DE5591C22A6F900AE6B72 /* LaunchScreen.storyboard */,
+				662DE55C1C22A6F900AE6B72 /* Info.plist */,
+				662DE54C1C22A6F900AE6B72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		662DE5641C22A6F900AE6B72 /* FoxRadiusDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				662DE5651C22A6F900AE6B72 /* FoxRadiusDemoTests.m */,
+				662DE5671C22A6F900AE6B72 /* Info.plist */,
+			);
+			path = FoxRadiusDemoTests;
+			sourceTree = "<group>";
+		};
+		662DE56F1C22A6F900AE6B72 /* FoxRadiusDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				662DE5701C22A6F900AE6B72 /* FoxRadiusDemoUITests.m */,
+				662DE5721C22A6F900AE6B72 /* Info.plist */,
+			);
+			path = FoxRadiusDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662DE5471C22A6F900AE6B72 /* FoxRadiusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662DE5751C22A6F900AE6B72 /* Build configuration list for PBXNativeTarget "FoxRadiusDemo" */;
+			buildPhases = (
+				662DE5441C22A6F900AE6B72 /* Sources */,
+				662DE5451C22A6F900AE6B72 /* Frameworks */,
+				662DE5461C22A6F900AE6B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoxRadiusDemo;
+			productName = FoxRadiusDemo;
+			productReference = 662DE5481C22A6F900AE6B72 /* FoxRadiusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		662DE5601C22A6F900AE6B72 /* FoxRadiusDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662DE5781C22A6F900AE6B72 /* Build configuration list for PBXNativeTarget "FoxRadiusDemoTests" */;
+			buildPhases = (
+				662DE55D1C22A6F900AE6B72 /* Sources */,
+				662DE55E1C22A6F900AE6B72 /* Frameworks */,
+				662DE55F1C22A6F900AE6B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662DE5631C22A6F900AE6B72 /* PBXTargetDependency */,
+			);
+			name = FoxRadiusDemoTests;
+			productName = FoxRadiusDemoTests;
+			productReference = 662DE5611C22A6F900AE6B72 /* FoxRadiusDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		662DE56B1C22A6F900AE6B72 /* FoxRadiusDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662DE57B1C22A6F900AE6B72 /* Build configuration list for PBXNativeTarget "FoxRadiusDemoUITests" */;
+			buildPhases = (
+				662DE5681C22A6F900AE6B72 /* Sources */,
+				662DE5691C22A6F900AE6B72 /* Frameworks */,
+				662DE56A1C22A6F900AE6B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662DE56E1C22A6F900AE6B72 /* PBXTargetDependency */,
+			);
+			name = FoxRadiusDemoUITests;
+			productName = FoxRadiusDemoUITests;
+			productReference = 662DE56C1C22A6F900AE6B72 /* FoxRadiusDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662DE5401C22A6F900AE6B72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XFoxer;
+				TargetAttributes = {
+					662DE5471C22A6F900AE6B72 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					662DE5601C22A6F900AE6B72 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 662DE5471C22A6F900AE6B72;
+					};
+					662DE56B1C22A6F900AE6B72 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 662DE5471C22A6F900AE6B72;
+					};
+				};
+			};
+			buildConfigurationList = 662DE5431C22A6F900AE6B72 /* Build configuration list for PBXProject "FoxRadiusDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 662DE53F1C22A6F900AE6B72;
+			productRefGroup = 662DE5491C22A6F900AE6B72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662DE5471C22A6F900AE6B72 /* FoxRadiusDemo */,
+				662DE5601C22A6F900AE6B72 /* FoxRadiusDemoTests */,
+				662DE56B1C22A6F900AE6B72 /* FoxRadiusDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		662DE5461C22A6F900AE6B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662DE55B1C22A6F900AE6B72 /* LaunchScreen.storyboard in Resources */,
+				662DE5581C22A6F900AE6B72 /* Assets.xcassets in Resources */,
+				662DE5561C22A6F900AE6B72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DE55F1C22A6F900AE6B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DE56A1C22A6F900AE6B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		662DE5441C22A6F900AE6B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662DE5531C22A6F900AE6B72 /* ViewController.m in Sources */,
+				662DE5501C22A6F900AE6B72 /* AppDelegate.m in Sources */,
+				66195F111C75AD2A002F1C59 /* FOXTestRaidusView.m in Sources */,
+				66195F151C75AD30002F1C59 /* FOXRadiusView.m in Sources */,
+				662DE54D1C22A6F900AE6B72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DE55D1C22A6F900AE6B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662DE5661C22A6F900AE6B72 /* FoxRadiusDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DE5681C22A6F900AE6B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662DE5711C22A6F900AE6B72 /* FoxRadiusDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		662DE5631C22A6F900AE6B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 662DE5471C22A6F900AE6B72 /* FoxRadiusDemo */;
+			targetProxy = 662DE5621C22A6F900AE6B72 /* PBXContainerItemProxy */;
+		};
+		662DE56E1C22A6F900AE6B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 662DE5471C22A6F900AE6B72 /* FoxRadiusDemo */;
+			targetProxy = 662DE56D1C22A6F900AE6B72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		662DE5541C22A6F900AE6B72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662DE5551C22A6F900AE6B72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		662DE5591C22A6F900AE6B72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662DE55A1C22A6F900AE6B72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		662DE5731C22A6F900AE6B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		662DE5741C22A6F900AE6B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		662DE5761C22A6F900AE6B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoxRadiusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfox.FoxRadiusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		662DE5771C22A6F900AE6B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoxRadiusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfox.FoxRadiusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		662DE5791C22A6F900AE6B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoxRadiusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfox.FoxRadiusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxRadiusDemo.app/FoxRadiusDemo";
+			};
+			name = Debug;
+		};
+		662DE57A1C22A6F900AE6B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoxRadiusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfox.FoxRadiusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxRadiusDemo.app/FoxRadiusDemo";
+			};
+			name = Release;
+		};
+		662DE57C1C22A6F900AE6B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FoxRadiusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfox.FoxRadiusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FoxRadiusDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		662DE57D1C22A6F900AE6B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FoxRadiusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfox.FoxRadiusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FoxRadiusDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		662DE5431C22A6F900AE6B72 /* Build configuration list for PBXProject "FoxRadiusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662DE5731C22A6F900AE6B72 /* Debug */,
+				662DE5741C22A6F900AE6B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662DE5751C22A6F900AE6B72 /* Build configuration list for PBXNativeTarget "FoxRadiusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662DE5761C22A6F900AE6B72 /* Debug */,
+				662DE5771C22A6F900AE6B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662DE5781C22A6F900AE6B72 /* Build configuration list for PBXNativeTarget "FoxRadiusDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662DE5791C22A6F900AE6B72 /* Debug */,
+				662DE57A1C22A6F900AE6B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662DE57B1C22A6F900AE6B72 /* Build configuration list for PBXNativeTarget "FoxRadiusDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662DE57C1C22A6F900AE6B72 /* Debug */,
+				662DE57D1C22A6F900AE6B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 662DE5401C22A6F900AE6B72 /* Project object */;
+}
